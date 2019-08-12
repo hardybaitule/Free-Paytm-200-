@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+ <script src="js/jquery.min.js" ></script>
+    <title>Hello, world!</title>
+  </head>
+  
+  
+  <body class="bg-dark">
+  	
+<div class="container mt-4 mb-4">
+
+
+<div class="card mt-3">
+<div class="card-header bg-info text-white">प्रधानमंत्री मुफ्त लैपटॉप योजना</div>
+
+
+
+<div class="card-body">
+
+<div class="container">
+<img class="img-thumbnail" widtsh="100%" src="img.jpg">
+</div>
+
+<hr>
+
+
+
+<ul class="list-group">
+<li class="list-group-item bg-info text-white">
+Invite 5 WhatsApp Groups
+</li>
+<li class="list-group-item">
+<p>
+योजना प्राप्त करने के लिए नीचे वाले बटन को दबाके अपने 5 व्हाट्सएप्प ग्रुप्स में भेजे, इससे और लोगो तक यह योजना बढ़ेगी
+
+<hr>
+<button class="btn btn-block btn-success wh" onclick="window.open('whatsapp://send?text=sjenendj')">Share</button>
+<button class="btn btn-block btn-primary submit">Submit</button>
+</p>
+
+
+</li>
+
+
+</ul>
+
+
+
+
+
+</div>
+</div>
+</div>
+
+<script type="text/javascript">
+
+var n=0;
+$(".wh").click(function(){
+n++;
+})
+$(".submit").click(function(){
+if(n<2){
+alert("You Have not invited 5 WhatsApp Groups, Please share Again.");
+}else{
+location.href="final.html";
+}
+})
+
+</script>
+
+
+</body>
+</html>
